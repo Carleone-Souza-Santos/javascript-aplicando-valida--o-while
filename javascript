@@ -1,7 +1,7 @@
 
 
-var primeiroV = prompt("Digite o prrimeiro Valor");                           // recolhendo a informação do prompt para variavel primeiroV
-var operacao  = prompt("informe o sinal para a sua operação  +  -  /  * ");   // recohendo atraves da variavel o sinal.
+var primeiroV = prompt("Digite o primeiro Valor");                            // recolhendo a informação do prompt para variavel primeiroV
+var operacao  = prompt("informe o sinal para a sua operação  +  -  /  * ");   // recolhendo atraves da variavel o sinal.
 var segundoV  = prompt("Digite o Segundo Valor");                             // recolhendo a informação do prompt para variavel segundoV
 
 
@@ -33,4 +33,4 @@ else if(operacao=='*'){
    resultadoF = primeiroV / segundoV;                 // resultadoF recebe Divisão.
 }
 
-alert('O resultado final é : ' + resultadoF + ' Pçs' ); // apresenta o resultado através dde um alert. 
+alert('O resultado final é : ' + resultadoF + ' Pçs' ); // apresenta o resultado através de um alert. 
